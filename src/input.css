@@ -3,6 +3,26 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  padding-inline: 10%;
+}
+
+.header {
+  font-size: 26px;
+  font-weight: 500;
+
+  padding-top: 191px;
+  background-image: url("assets/Header.png");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+  height: 750px;
+}
+
+.header .headertext {
+  padding-left: 50%
 }
 
 .topnav {
