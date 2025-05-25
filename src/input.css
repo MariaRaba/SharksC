@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.topnav {
+  @apply bg-white shadow-md flex items-center justify-between py-4;
+  font-weight: 700;
+  font-size: 20px;
+  padding-inline: 70px;
+}
+
+.topnav .icon i {
+  font-size: 38px; 
+}
+
+
+.topnav .icon {
+  @apply hidden;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) { display: none; }
+  .topnav a.icon {
+    @apply block ml-auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    @apply flex-col items-start;
+  }
+  .topnav.responsive .icon {
+    @apply absolute right-4 top-4;
+  }
+  .topnav.responsive a {
+    @apply block w-full text-left;
+  }
+}
+
