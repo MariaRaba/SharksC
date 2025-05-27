@@ -6,6 +6,21 @@ body {
   padding-inline: 10%;
 }
 
+
+body h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+body h2 {
+  font-size: 110px;
+  font-weight: 700;
+}
+
+
+
+
+
 .header {
   font-size: 26px;
   font-weight: 500;
@@ -58,5 +73,84 @@ body {
   .topnav.responsive a {
     @apply block w-full text-left;
   }
+}
+
+
+
+
+
+
+div.team2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+
+  font-size: 20px;
+  font-weight: 500;
+}
+
+div.team2 p {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+div.team2 > div {
+}
+
+@media (max-width: 640px) {
+  div.team2 {
+    grid-template-columns: 1fr 1fr;
+    font-size: 14px;
+  }
+
+  div.team2 p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+ div.team2 h1{
+    font-size: 26px;
+  }
+  div.team2 h2 {
+    font-size: 40px;
+  } 
+}
+
+
+
+/*delete later*/
+div {
+  border: 1px dotted green;
+  padding: 1px;
+  margin: 0px;
+}
+
+
+
+.games {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;   
+}
+
+.games > button {
+  background-color: #FFD627;
+  border: none;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  width: 349px;
+  height: 199px;
+  flex-grow: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 26px
+}
+
+.title {
+  text-align: center;
 }
 

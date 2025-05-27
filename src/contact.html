@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./output.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body>
+    
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="Logo"><img src="assets/Logo.svg" alt=""></a>
+  <a href="shop.html">Shop</a>
+  <a href="contact.html">Contact</a>
+     <a href="#cart"><img src="assets/Carticon.svg" alt="cart"></a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div class="Contact">
+      <h1 class="text-2xl text-slate-900 font-semibold text-left">Contact</h1>
+      <form class="mt-8 space-y-5">
+        <div>
+          <label class='text-sm text-slate-800 font-medium mb-2 block'>Name</label>
+          <input type='text' placeholder='Enter Name'
+            class="w-full py-2.5 px-4 text-slate-800 bg-white border border-gray-200 focus:border-slate-900 focus:bg-transparent text-sm outline-0 transition-all" />
+        </div>
+        <div>
+          <label class='text-sm text-slate-800 font-medium mb-2 block'>Email</label>
+          <input type='email' placeholder='Enter Email'
+            class="w-full py-2.5 px-4 text-slate-800 bg-white border border-gray-200 focus:border-slate-900 focus:bg-transparent text-sm outline-0 transition-all" />
+        </div>
+        <div>
+          <label class='text-sm text-slate-800 font-medium mb-2 block'>Subject</label>
+          <input type='text' placeholder='Enter Subject'
+            class="w-full py-2.5 px-4 text-slate-800 bg-white border border-gray-200 focus:border-slate-900 focus:bg-transparent text-sm outline-0 transition-all" />
+        </div>
+        <div>
+          <label class='text-sm text-slate-800 font-medium mb-2 block'>Message</label>
+          <textarea placeholder='Enter Message' rows="4"
+            class="w-full px-4 text-slate-800 bg-white border border-gray-200 focus:border-slate-900 focus:bg-transparent text-sm pt-3 outline-0 transition-all"></textarea>
+        </div>
+        
+        <button class="button">Send Message</button>
+    </form>
+</div>
+
+<style>
+.Contact button {
+  background-color: #FFD627;
+  width: 271px;
+  height: 56px;
+  border-radius: 28px;
+
+  
+}
+</style>
+
+
+</body>
+</html>
