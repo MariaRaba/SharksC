@@ -292,10 +292,22 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 750px;
+  height: 800px;
 }
-.header .headertext {
-  padding-left: 50%;
+div.header div.big {
+  display: block;
+}
+div.header div.small {
+  display: none;
+}
+@media (max-width: 1024px) {
+  div.header div.big {
+    display: none;
+  }
+  div.header div.small {
+    display: block;
+    text-align: center;
+  }
 }
 .topnav {
   display: flex;
