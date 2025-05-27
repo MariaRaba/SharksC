@@ -206,6 +206,10 @@ div.matches2>div.date>h1 {
   font-weight: 700;
 }
 
+div.matches2 > div.date > img {
+   display: inline;
+}
+
 
 /*Logo ikooni ja teksti sama joone peale saamiseks*/
 div.matches2>div.mathessisu>div.kast1>img {
