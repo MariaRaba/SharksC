@@ -410,7 +410,7 @@ div {
   flex-wrap: wrap;
   gap: 20px;
 }
-.games > button {
+.games>button {
   background-color: #FFD627;
   border: none;
   color: white;
@@ -427,15 +427,59 @@ div {
 .title {
   text-align: center;
 }
-div.matches2 > div.date > p {
+div.matches2>div.date>p {
+  display: inline;
+  font-size: 20px;
+  font-weight: 500;
+}
+div.matches2>div.date>h1 {
+  display: inline;
+  font-size: 20px;
+  font-weight: 700;
+}
+div.matches2>div.mathessisu>div.kast1>img {
   display: inline;
 }
-div.matches2 > div.date > h1 {
+div.matches2>div.mathessisu>div.kast1>h1 {
+  display: inline;
+  font-size: 24px;
+  font-weight: 700;
+}
+div.matches2>div.mathessisu>div.kast2>img {
   display: inline;
 }
-div.matches2 > div.mathessisu {
+div.matches2>div.mathessisu>div.kast2>h1 {
+  display: inline;
+  font-size: 24px;
+  font-weight: 700;
+}
+div.matches2>div.mathessisu>h1 {
+  margin-top: 28px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+div.matches2>div.mathessisu {
   display: grid;
-  grid-template-columns: 3fr 1fr 3fr;
+  grid-template-columns: 80px 1fr 50px 80px 1fr;
+}
+@media (max-width: 1024px) {
+  div.matches2>div.date>p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  div.matches2 > div.mathessisu > .teamname {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  div.matches2 > div.mathessisu > .result {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  div.matches2 > div.mathessisu > .teamname2 {
+    font-size: 15px;
+    font-weight: 700;
+  }
 }
 @layer base {
   :where(:root),:root:has(input.theme-controller[value=light]:checked),[data-theme=light] {

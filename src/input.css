@@ -18,34 +18,37 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  
+
   height: 800px;
 }
 
 @media (max-width: 1024px) {
- .header {
-  height: 280px;
-    }
-  .header div.slogan {
-     position: absolute;
-  top: 80px;
+  .header {
+    height: 280px;
   }
- }
+
+  .header div.slogan {
+    position: absolute;
+    top: 80px;
+  }
+}
 
 
-div.header  div.big {
+div.header div.big {
   display: block;
   margin-left: 50%;
 }
+
 div.small {
   display: none;
 }
 
 @media (max-width: 1024px) {
-  div.header  div.big {
+  div.header div.big {
     display: none;
   }
-  div.small{
+
+  div.small {
     display: block;
     text-align: center;
     font-size: 16px;
@@ -67,7 +70,7 @@ div.small {
 }
 
 .topnav .icon i {
-  font-size: 38px; 
+  font-size: 38px;
 }
 
 
@@ -76,7 +79,10 @@ div.small {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) { display: none; }
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
   .topnav a.icon {
     @apply block ml-auto;
   }
@@ -86,9 +92,11 @@ div.small {
   .topnav.responsive {
     @apply flex-col items-start;
   }
+
   .topnav.responsive .icon {
     @apply absolute right-4 top-4;
   }
+
   .topnav.responsive a {
     @apply block w-full text-left;
   }
@@ -131,16 +139,17 @@ div.team2 div.title h2 {
   }
 
   div.team2 p {
-  font-size: 20px;
-  font-weight: 700;
-}
+    font-size: 20px;
+    font-weight: 700;
+  }
 
- div.team2 h1{
+  div.team2 h1 {
     font-size: 26px;
   }
+
   div.team2 h2 {
     font-size: 40px;
-  } 
+  }
 }
 
 
@@ -160,10 +169,10 @@ div {
 .games {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;   
+  gap: 20px;
 }
 
-.games > button {
+.games>button {
   background-color: #FFD627;
   border: none;
   color: white;
@@ -185,15 +194,73 @@ div {
 }
 
 
-div.matches2 > div.date > p{
- display: inline;
+div.matches2>div.date>p {
+  display: inline;
+  font-size: 20px;
+  font-weight: 500;
 }
-div.matches2 > div.date > h1{
- display: inline;
+
+div.matches2>div.date>h1 {
+  display: inline;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 
-div.matches2 > div.mathessisu{
+/*Logo ikooni ja teksti sama joone peale saamiseks*/
+div.matches2>div.mathessisu>div.kast1>img {
+  display: inline;
+}
+
+div.matches2>div.mathessisu>div.kast1>h1 {
+  display: inline;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+div.matches2>div.mathessisu>div.kast2>img {
+  display: inline;
+}
+
+div.matches2>div.mathessisu>div.kast2>h1 {
+  display: inline;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+div.matches2>div.mathessisu>h1 {
+  margin-top: 28px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+
+div.matches2>div.mathessisu {
   display: grid;
-  grid-template-columns: 3fr 1fr 3fr;
+  grid-template-columns: 80px 1fr 50px 80px 1fr;
+
+}
+
+@media (max-width: 1024px) {
+  div.matches2>div.date>p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+ div.matches2 > div.mathessisu > .teamname {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+
+ div.matches2 > div.mathessisu > .result{
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  div.matches2 > div.mathessisu > .teamname2{
+    font-size: 15px;
+    font-weight: 700;
+  }
 }
