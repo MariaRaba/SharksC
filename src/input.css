@@ -191,7 +191,51 @@ div {
 
 .title {
   text-align: center;
+  font-size: 64px;
+  font-weight: 700;
 }
+
+@media (max-width: 1024px) { 
+  .title {
+    font-size: 26px;
+  }
+ }
+
+
+
+div.Results-Upcoming > .resultbox {
+  text-align: center;
+}
+
+
+div.Results-Upcoming > .resultbox > a.resultbox1 {
+  font-size: 32px;
+  font-weight: 700;
+
+  padding-left: 30px;
+}
+
+div.Results-Upcoming > .resultbox > a.resultbox2 {
+  font-size: 32px;
+   font-weight: 700;
+   color: #666666;
+
+   padding-left: 60px;
+}
+
+div.Results-Upcoming > .resultbox > img.resultred {
+ display: inline;
+}
+
+@media (max-width: 1024px) { 
+  div.Results-Upcoming > .resultbox > a.resultbox1 {
+    font-size: 20px;
+}
+    div.Results-Upcoming > .resultbox > a.resultbox2 {
+    font-size: 20px;
+}
+}
+
 
 
 div.matches2>div.date>p {
@@ -209,6 +253,8 @@ div.matches2>div.date>h1 {
 div.matches2 > div.date > img {
    display: inline;
 }
+
+
 
 
 /*Logo ikooni ja teksti sama joone peale saamiseks*/
