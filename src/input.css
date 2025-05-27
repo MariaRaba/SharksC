@@ -28,7 +28,7 @@ body {
     }
   .header div.slogan {
      position: absolute;
-  top: 70px;
+  top: 80px;
   }
  }
 
@@ -51,7 +51,7 @@ div.small {
     font-size: 16px;
     font-weight: 500;
 
-    margin-bottom: 48px;
+    margin-bottom: 50px;
   }
 }
 
@@ -184,3 +184,16 @@ div {
   text-align: center;
 }
 
+
+div.matches2 > div.date > p{
+ display: inline;
+}
+div.matches2 > div.date > h1{
+ display: inline;
+}
+
+
+div.matches2 > div.mathessisu{
+  display: grid;
+  grid-template-columns: 3fr 1fr 3fr;
+}
