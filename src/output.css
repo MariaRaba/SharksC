@@ -283,14 +283,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   padding-inline: 10%;
 }
-body h1 {
-  font-size: 64px;
-  font-weight: 700;
-}
-body h2 {
-  font-size: 110px;
-  font-weight: 700;
-}
 .header {
   font-size: 26px;
   font-weight: 500;
@@ -359,7 +351,15 @@ div.team2 p {
   font-size: 32px;
   font-weight: 700;
 }
-@media (max-width: 640px) {
+div.team2 div.title h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+div.team2 div.title h2 {
+  font-size: 70px;
+  font-weight: 700;
+}
+@media (max-width: 1024px) {
   div.team2 {
     grid-template-columns: 1fr 1fr;
     font-size: 14px;
