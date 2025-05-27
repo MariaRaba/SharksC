@@ -330,9 +330,17 @@ div.matches2>div.mathessisu {
 /*anyways*/
 
 
+div.merch > div.merchcontent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+
+
 div.merch > div.merchcontent > div.kast1 >.kasttekst1{
   background-color: #FFD627;
-  text-align: center;
+  margin-top: -25px;
 }
 
 
@@ -341,6 +349,7 @@ div.merch > div.merchcontent > div.kast1 > div.kasttekst1 > h1{
   font-weight: 700;
 
   display: inline;
+  text-align: left;
 }
 
 div.merch > div.merchcontent > div.kast1 > div.kasttekst1 > p{
