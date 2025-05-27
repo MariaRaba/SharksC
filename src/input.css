@@ -22,10 +22,22 @@ body {
   height: 800px;
 }
 
+@media (max-width: 1024px) {
+ .header {
+  height: 280px;
+    }
+  .header div.slogan {
+     position: absolute;
+  top: 70px;
+  }
+ }
+
+
 div.header  div.big {
   display: block;
+  margin-left: 50%;
 }
-div.header  div.small {
+div.small {
   display: none;
 }
 
@@ -33,9 +45,13 @@ div.header  div.small {
   div.header  div.big {
     display: none;
   }
-  div.header  div.small{
+  div.small{
     display: block;
     text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+
+    margin-bottom: 48px;
   }
 }
 
