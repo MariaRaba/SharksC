@@ -299,7 +299,7 @@ div.matches2>div.mathessisu>h1 {
 
 div.matches2>div.mathessisu {
   display: grid;
-  grid-template-columns: 80px 1fr 50px 80px 1fr;
+  grid-template-columns: 80px 1fr 70px 80px 1fr;
 
 }
 
@@ -325,5 +325,31 @@ div.matches2>div.mathessisu {
     font-weight: 700;
   }
 }
+
+/*how do i get matches to work, aaa*/
+/*anyways*/
+
+
+div.merch > div.merchcontent > div.kast1 >.kasttekst1{
+  background-color: #FFD627;
+  text-align: center;
+}
+
+
+div.merch > div.merchcontent > div.kast1 > div.kasttekst1 > h1{
+  font-size: 32px;
+  font-weight: 700;
+
+  display: inline;
+}
+
+div.merch > div.merchcontent > div.kast1 > div.kasttekst1 > p{
+  font-size: 20px;
+  font-weight: 700;
+
+  display: inline;
+  
+}
+
 
 
