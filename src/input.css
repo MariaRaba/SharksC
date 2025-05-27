@@ -202,41 +202,52 @@ div {
  }
 
 
-
-div.Results-Upcoming > .resultbox {
+div.Results-Upcoming>.resultbox {
   text-align: center;
 }
 
 
-div.Results-Upcoming > .resultbox > a.resultbox1 {
+div.Results-Upcoming>.resultbox>a.resultbox1 {
   font-size: 32px;
   font-weight: 700;
 
   padding-left: 30px;
 }
 
-div.Results-Upcoming > .resultbox > a.resultbox2 {
+div.Results-Upcoming>.resultbox>a.resultbox2 {
   font-size: 32px;
-   font-weight: 700;
-   color: #666666;
+  font-weight: 700;
+  color: #666666;
 
-   padding-left: 60px;
+  padding-left: 60px;
 }
 
-div.Results-Upcoming > .resultbox > img.resultred {
- display: inline;
+div.Results-Upcoming>.resultbox>img.resultred {
+  display: inline;
 }
 
-@media (max-width: 1024px) { 
-  div.Results-Upcoming > .resultbox > a.resultbox1 {
+@media (max-width: 1024px) {
+  div.Results-Upcoming>.resultbox>a.resultbox1 {
     font-size: 20px;
-}
-    div.Results-Upcoming > .resultbox > a.resultbox2 {
+  }
+
+  div.Results-Upcoming>.resultbox>a.resultbox2 {
     font-size: 20px;
-}
+  }
 }
 
 
+body>div.Results-Upcoming>div.gamelist {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  body>div.Results-Upcoming>div.gamelist {
+    font-size: 15px;
+  }
+}
 
 div.matches2>div.date>p {
   display: inline;
@@ -314,3 +325,5 @@ div.matches2>div.mathessisu {
     font-weight: 700;
   }
 }
+
+
