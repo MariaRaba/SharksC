@@ -450,10 +450,14 @@ div {
   text-align: center;
   font-size: 64px;
   font-weight: 700;
+  margin-top: 120px;
+  margin-bottom: 64px;
 }
 @media (max-width: 1024px) {
   .title {
     font-size: 26px;
+    margin-top: 93px;
+    margin-bottom: 14px;
   }
 }
 div.Results-Upcoming>.resultbox {
@@ -566,6 +570,12 @@ div.merch > div.merchcontent > div.kast1 > div.kasttekst1 > p {
   font-size: 20px;
   font-weight: 700;
   display: inline;
+}
+div.merch>div.buttonM {
+  text-align: end;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 58px;
 }
 @layer base {
   :where(:root),:root:has(input.theme-controller[value=light]:checked),[data-theme=light] {
